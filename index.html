@@ -1,22 +1,26 @@
-<!DOCTYPE html>
 <html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tickovací Web</title>
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="sticky-header">
         <div class="logo">
-            <img src="logo.png" alt="Logo">
+            <img src="photo/logo.png" alt="Logo">
         </div>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home">Domů</a></li>
+                <li><a href="#about">O nás</a></li>
+                <li><a href="#services">Služby</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+                <li><a href="login.html" class="btn-login">Přihlášení</a></li>
             </ul>
         </nav>
     </header>
@@ -25,13 +29,23 @@
         <section class="hero">
             <div class="overlay">
                 <div class="hero-text">
-                    <h1>TITUL STRÁNKY</h1>
-                    <p>Krátký popis stránky nebo služby.</p>
+                    <h1>Send&Solve</h1>
+                    <p>Ticketovací nástroj</p>
                 </div>
-                <a href="#register" class="btn">Registrace</a>
+                <a href="login.html" class="btn">Přihlášení</a>
             </div>
             <img src="/photo/main.jpg" alt="Main Image">
         </section>
+
+        <section class="about">
+            <h2>O Aplikaci</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Similique incidunt sequi animi hic reprehenderit? </p>
+        </section>
     </main>
+
+    <footer>
+        <p>&copy; 2025 Tickovací Web. Všechna práva vyhrazena.</p>
+    </footer>
 </body>
 </html>
